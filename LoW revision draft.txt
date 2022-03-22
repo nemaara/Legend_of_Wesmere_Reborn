@@ -12,7 +12,7 @@ Cleodil - Lintanir born shaman who came to Wesmere for training. Mostly trained 
 Ka'lian - the council from TRoW which has become only more xenophobic since said campaign. Has a very conservative approach to basically everything.
 
 The orcish clans are rivals with one another. Each one alone might be able to threaten the humans, but does not pose much threat to Wesmere. If they combined forces, they might be similar in brute strength, though it may or may not be enough to offset the elves' prowess within their own territories. Also, the special clans each probably will get some unique units to them to mix up the gameplay.
-Clan Embershard - an orcish clan specializing in the use of fire and tactics involving traps and mobility. Makes heavy use of and is led by a goblin. As such, is despised by other orcish clans. Fire damage on troops is boosted. Clan color is grey.
+Clan Embershard - an orcish clan specializing in the use of fire and tactics involving traps and mobility. Makes heavy use of and is led by a goblin. As such, is despised by other orcish clans. Fire damage on troops is boosted. Clan color is orange.
 Clan Blackcrest - an orcish clan specializing in magic and allied with saurians. Has an unusual number of shamans. Though not the largest clan in numbers, possibly the most powerful due to their alliances and magical prowess. Military might comes from their ability to bloodlust their troops. Clan color is black.
 Clan Moontusk - the largest clan in numbers, which eventually became the Whitefangs later. They do not have any real specialty, just a coalition of brutes with lots of manpower. They are the first clan to ally with trolls. Clan color is light blue.
 Clan Bloodrock - another large clan specializing in berserkers. Clan color is dark red.
@@ -20,7 +20,7 @@ Clan Withervein - a smaller clan specializing in poison. They do not commonly fi
 
 The saurian clans are much smaller than the orcish clans and less powerful in military strength. They act more as supporting forces.
 Clan Earth-becomes-clay - a saurian clan focused on swamp magic. Capable of turning regular earth into swamps as well as altering it to hamper non saurians. Allied with clan Blackcrest. Clan color is brown.
-Clan Iron-forges-hides - a saurian clan of warriors with increased resistance to physical attacks. Has the ironscale trait. Allied with clan Blackcrest. Clan color is also black.
+Clan Iron-forges-hides - a saurian clan of warriors with increased resistance to physical attacks. Has the ironscale trait. Allied with clan Blackcrest. Clan color is also grey.
 
 Plot: 
 
@@ -83,7 +83,7 @@ Additional Loyal Shamans granted accompanying Cleodil.
 
 S4 - Bloodfields
 
-Landar returns to his post, accompanied by Kalenz. For a few months, they fend off small orc attacks. After some time, they receive a request for aid from another border village that did not evacuate. However, this is out of the jurisdiction of the Ka'lian's orders. He decides to go help anyway. Upon arrival, he finds the village assailed on two sides by the rivaling Blackcrest and Bloodrock clans. Landar and Kalenz defend the village from the orcs, preserving as much of it as possible (like UtBS S3, but the objective is to defeat both orcish leaders). The scenario is rather difficult because although the orcs will fight each other, you remain in between them and thus have to let them swarm over a significant portion of the village if you want them to kill each other. Otherwise, you may sustain quite a few losses just defending. Meant to be the first decently hard scenario.
+Landar returns to his post, accompanied by Kalenz. For a few months, they fend off small orc attacks. After some time, they receive a request for aid from another border village that did not evacuate. However, this is out of the jurisdiction of the Ka'lian's orders. He decides to go help anyway. Upon arrival, he finds the village assailed on two sides by the rivaling Embershard and Bloodrock clans. Landar and Kalenz defend the village from the orcs, preserving as much of it as possible (like UtBS S3, but the objective is to defeat both orcish leaders). The scenario is rather difficult because although the orcs will fight each other, you remain in between them and thus have to let them swarm over a significant portion of the village if you want them to kill each other. Otherwise, you may sustain quite a few losses just defending. Meant to be the first decently hard scenario.
 
 After defending the village, Landar and Kalenz agree that the Ka'lian is probably wrong and they should bring the fight to the orcs before Wesmere is threatened further. They realize that the paltry number of troops Landar was granted is not enough to fight the orcs, so they need to seek allies. They ask Cleodil if she will report their defection to the Ka'lian. To their surprise, she agrees with them, that the Ka'lian is too conservative and they should take matters into their own hands. She points out that the Ka'lian is far removed from practicality and there's many things they don't know. She suggests they take a detour to the Grey Woods, to which Landar and Kalenz agree.
 
