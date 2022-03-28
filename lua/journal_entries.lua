@@ -15,12 +15,29 @@ local dialog = {
         T.row {
             grow_factor = 0,
             T.column {
-                border = "all",
-                border_size = 5,
                 horizontal_alignment = "left",
-                T.label {
-                    definition = "title",
-                    id = "title"
+                T.grid {
+                    T.row {
+                        grow_factor = 0,
+                        T.column {
+                            border = "all",
+                            border_size = 5,
+                            horizontal_alignment = "left",
+                            T.image {
+                                id = "icon",
+                                linked_group = "icon"
+                            }
+                        },
+                        T.column {
+                            border = "all",
+                            border_size = 5,
+                            horizontal_alignment = "left",
+                            T.label {
+                                definition = "title",
+                                id = "title"
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -41,16 +58,6 @@ local dialog = {
                                     return_value = -1,
                                     T.grid {
                                         T.row {
-                                            T.column {
-                                                grow_factor = 0,
-                                                border = "all",
-                                                border_size = 5,
-                                                horizontal_alignment = "left",
-                                                T.image {
-                                                    id = "icon",
-                                                    linked_group = "icon"
-                                                }
-                                            },
                                             T.column {
                                                 grow_factor = 1,
                                                 border = "all",
@@ -113,12 +120,12 @@ local journal_entry = {"Cancel"}
 local function preshow()
     wesnoth.set_dialog_callback(select, "list")
     wesnoth.set_dialog_value(title, "title")
+    wesnoth.set_dialog_value("icons/book.png", "icon")
 
     for i,v in ipairs(journal_entry) do
         if i == 1 then
         else
-            wesnoth.set_dialog_value(string.format("%s",journal_entry[i]), "list", i-1, "label")
-            wesnoth.set_dialog_value("attacks/thunderstick.png", "list", i-1, "icon")
+            wesnoth.set_dialog_value(string.format("(%d) — %s", i-1, journal_entry[i]), "list", i-1, "label")
             wesnoth.set_dialog_markup(true,"list", i-1, "label")
         end
     end
@@ -155,16 +162,16 @@ function wesnoth.wml_actions.landar_journal()
     --wesnoth.message(string.format("Button %d pressed. Item %d selected.", r, li))
 
     if r == -1 then
-        if journal_entry[li+1]=="Kalenz" then
+        if journal_entry[li+1]=="Kalenz1" then
             gui.show_narration({
-                 title = "Kalenz",
+                 title = "Kalenz1",
                  message= _"The last and most powerful of these creatures are almost upon us. I feel that if we can finish them off in time, we shall be victorious.",
                  portrait = "misc/blank-hex.png~SCALE(360,360)~BLIT(attacks/touch-faerie.png~SCALE(120,120), 168, 212)",
             })
-        elseif journal_entry[li+1]=="Infuse" then
+        elseif journal_entry[li+1]=="Kalenz2" then
             gui.show_narration({
-                 title = "Infuse",
-                 message= _"The last and most powerful of these creatures are almost upon us. I feel that if we can finish them off in time, we shall be victorious.",
+                 title = "Kalenz2",
+                 message= _"Ungabunga.",
                  portrait = "misc/blank-hex.png~SCALE(360,360)~BLIT(attacks/touch-faerie.png~SCALE(120,120), 168, 212)",
             })
         end
