@@ -9,6 +9,7 @@ Factions:
 Landar - Wesmere born and raised marksman who joined the Wesmere military when the humans arrived on the Great Continent in 0 YW.
 Kalenz - Lintanir born son of nobleman who came to Wesmere around 5 YW in the wake of the drake attack. 
 Cleodil - Lintanir born shaman who came to Wesmere for training. Mostly trained in the druidic arts but has some skill in elven sorcery too.
+Galtrid - an elvish captain that Landar and Kalenz sometimes encounter who is pretty good friends with Landar
 Ka'lian - the council from TRoW which has become only more xenophobic since said campaign. Has a very conservative approach to basically everything.
 
 The orcish clans are rivals with one another. Each one alone might be able to threaten the humans, but does not pose much threat to Wesmere. If they combined forces, they might be similar in brute strength, though it may or may not be enough to offset the elves' prowess within their own territories. Also, the special clans each probably will get some unique units to them to mix up the gameplay.
@@ -65,7 +66,7 @@ Civilian discovered once Landar enters the village
 S3 - Witchmire
 
 Landar and Kalenz pursue the Blackcrest clan to a nearby location outside of Wesmere, where they find the elven hostages. They are surprised to find a swamp and after some spying, discover that the Blackcrest clan is allied with saurians (Clan Earth-becomes-clay). They discover that the shamans have made some blood sacrifices from the elves as well to boost their magical powers. Landar and Kalenz free the hostages and either wipe out the orcs or simply retreat. Either way, more orcs arrive at the end of the scenario, prompting them to return to Wesmere and go back to the Ka'lian. 
-Recruits: Archer, Fighter, Civilian
+Recruits: Archer, Fighter, Scout, Civilian
 
 S3x - The Intractable
 
