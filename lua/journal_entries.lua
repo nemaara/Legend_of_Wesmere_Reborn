@@ -159,8 +159,6 @@ function wesnoth.wml_actions.landar_journal()
 
     local r = gui.show_dialog(dialog, preshow, postshow)
 
-    --wesnoth.message(string.format("Button %d pressed. Item %d selected.", r, li))
-
     if r == -1 then
         if journal_entry[li+1]=="Kalenz1" then
             gui.show_narration({
